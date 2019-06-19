@@ -26,6 +26,9 @@ class CreateUser(graphene.Mutation):
     user = graphene.Field(User)
 
     def mutate(self, info, username):
+        if info.context.get('is_organisation_owner'):
+            username = username.upper()
+
         user = User(username=username)
         return CreateUser(user=user)
 
@@ -59,7 +62,8 @@ result = schema.execute(
         }
     }
     ''',
-    variable_values={'username': 'Ben'}
+    variable_values={'username': 'Ben'},
+    context={'is_organisation_owner': True}
 )
 
 
