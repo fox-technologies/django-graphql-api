@@ -8,7 +8,5 @@ Then:
 
 > pip install graphene
 
-> pip install graphene-django
-
 Run:
 > python schema.py
