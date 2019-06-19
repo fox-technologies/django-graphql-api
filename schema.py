@@ -39,7 +39,7 @@ class Mutations(graphene.ObjectType):
 
 schema = graphene.Schema(query=Query, mutation=Mutations)
 
-# return list of users with their username and las login
+# return list of users with their username and last login
 # result = schema.execute(
 #     '''
 #     {
