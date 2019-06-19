@@ -7,6 +7,7 @@ Install python (any version will do)
 Then:
 
 > pip install graphene
+
 > pip install graphene-django
 
 Run:
