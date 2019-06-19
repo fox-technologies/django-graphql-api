@@ -51,16 +51,15 @@ schema = graphene.Schema(query=Query, mutation=Mutations)
 # return list of users with their username and las login
 result = schema.execute(
     '''
-    mutation creaeUser {
-        createUser(username: "Ben") {
+    mutation createUser($username: String) {
+        createUser(username: $username) {
             user {
                 username 
             }
         }
     }
-    '''
-
-
+    ''',
+    variable_values={'username': 'Ben'}
 )
 
 
