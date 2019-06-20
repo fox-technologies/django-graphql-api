@@ -2,7 +2,7 @@
 
 ## Install
 
-Install python (any version will do)
+Install Python (any version will do)
 
 Then:
 
