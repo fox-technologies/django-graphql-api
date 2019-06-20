@@ -9,4 +9,5 @@ Then:
 `pip install graphene`
 
 Run:
+
 `python schema.py`
