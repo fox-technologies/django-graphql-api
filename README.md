@@ -6,7 +6,7 @@ Install python (any version will do)
 
 Then:
 
-> pip install graphene
+`pip install graphene`
 
 Run:
-> python schema.py
+`python schema.py`
