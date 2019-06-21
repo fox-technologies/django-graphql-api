@@ -2,7 +2,7 @@
 
 ## Install
 
-Install Python (any version will do)
+Install Python (any version will do). The recommended version is 3.x
 
 Then:
 
