@@ -2,7 +2,8 @@
 
 ## Install
 
-Install Python (any version will do). The recommended version is 3.x
+Install Python (any version will do). 
+It is recommended you [download the latest version from the Python website](https://www.python.org/downloads/).
 
 Then:
 
