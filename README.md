@@ -4,12 +4,12 @@
 
 Install Python (any version will do). 
 
-It is recommended you [download the latest version from the Python website](https://www.python.org/downloads/).
+It is recommended that you [download the latest version from the Python website](https://www.python.org/downloads/).
 
-Then:
+Then open a terminal window and type:
 
 `pip install graphene`
 
-Run:
+Run the application using the following command:
 
 `python schema.py`
